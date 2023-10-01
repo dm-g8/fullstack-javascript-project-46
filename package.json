@@ -1,0 +1,21 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "[![Actions Status](https://github.com/dm-g8/fullstack-javascript-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dm-g8/fullstack-javascript-project-46/actions)",
+  "main": "index.js",
+  "bin": { 
+    "gendiff": "bin/gendiff.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitrii Linkevich",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.7.0"
+  }
+}
