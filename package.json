@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "[![Actions Status](https://github.com/dm-g8/fullstack-javascript-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dm-g8/fullstack-javascript-project-46/actions)",
   "main": "index.js",
-  "bin": { 
+  "bin": {
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
@@ -13,6 +13,7 @@
   "author": "Dmitrii Linkevich",
   "license": "ISC",
   "devDependencies": {
+    "commander": "^11.0.0",
     "eslint": "^8.50.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.1",
