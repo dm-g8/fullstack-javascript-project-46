@@ -6,7 +6,16 @@ const command = () => {
 };
 
 program
-  .version('0.0.1')
-  .action(command)
+  .version('0.0.2')
+  .arguments('<filepath1>')
+  .arguments('<filepath2>')
   .description('Compares two configuration files and shows a difference.')
-  .parse(process.argv);
+  .option('-f, --format <type>', 'output format')
+  .helpOption('-h, --help', 'output usage information')
+  .configureHelp({
+    sortOptions: true,
+  })
+
+  .action(command);
+
+program.parse(process.argv);
